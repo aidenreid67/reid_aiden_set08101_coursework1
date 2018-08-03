@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 20px;
+    margin-left: 2px;
+    padding: 120px;
+    font-size: 40px;
+    font-family: courier;
+    text-align: center;
+    background-repeat: no-repeat;
+
+    background-color: #57E507;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.h2{
+  display: inline-block;
+
+  margin-left: 20px;
+  padding: 2px;
+  font-size: 8px;
+  font-family: courier;
+  width:320px;
+  height: 280px;
+}
+
+}
+.form{
+  margin-left: 20px;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+
+
+}
+
+.form1{
+  margin-left: 3px;
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+
+}
+
+.form2{
+margin-left: 170px;
+border: 2px solid red;
+    border-radius: 4px;
+
+}
+
+.form3{
+  display: inline-block;
+}
+
+
+
+
+.login{
+  font-size: 5px;
+  font-family: courier;
+  color: black;
+}
+
+
+
+.navBar a{
+  margin-top: 20px;
+  text-align: center;
+  background-color: #57E507;
+  padding: 20px;
+  border: none;
+  width: 25%;
+  float: left;
+  color: white;
+  font-size: 20px;
+  font-family: courier;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+.navBar a:hover{
+  background-color: white;
+  color: black;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #57E507;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    font-family: courier;
+
+}
+
+.leftcolumn {
+    margin-left: 90px;
+    float: left;
+    width: 60%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    margin-right: 100px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+     background-color: #D7FFD5 ;
+     padding: 20px;
+     margin-top: 20px;
+     font-size: 20px;
+     font-family: courier;
+     color: black;
+
+}
+
+
+.card2 {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+     font-size: 10px;
+     font-family: courier;
+
+}
+
+.loginBack{
+  background-color: #57E507;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title{
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.logB{
+  color: #FFDAB9;
+  font-size: 10px;
+  font-family: courier;
+  background-color: white;
+  margin-left: 200px;
+  border-radius: 8px;
+  border: 2px solid #FFDAB9;
+
+}
+
+
+
+mark {
+  background-color:white;
+  color: black;
+  padding: 10px;
+}
