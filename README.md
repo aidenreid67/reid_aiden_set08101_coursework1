@@ -21,4 +21,3 @@ Finally, the last step will be to connect to the database server, open another t
         mongo
 
 Now to view the blog you have to open a new tab on a browser such as safari/chrome, then type in localhost:3000, this will open up the blog      
-
